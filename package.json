@@ -1,0 +1,24 @@
+{
+  "name": "co-226-project-database-for-a-educational-institute",
+  "version": "1.0.0",
+  "description": "Database for a educational institute",
+  "main": "login.js",
+  "dependencies": {
+    "express-session": "^1.15.6",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmilaWeerasinghe/CO-226-project-Database-for-a-Educational-Institute.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmilaWeerasinghe/CO-226-project-Database-for-a-Educational-Institute/issues"
+  },
+  "homepage": "https://github.com/AmilaWeerasinghe/CO-226-project-Database-for-a-Educational-Institute#readme"
+}

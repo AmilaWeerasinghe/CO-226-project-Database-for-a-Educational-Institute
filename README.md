@@ -3,9 +3,8 @@ Database for a educational institute
 
 
 Database for and Educational institute
-HTML 
-CSS
-PHP
-MYSQL
-
-Design of the Login interface
+HTML - Structure/Skeleton of webpages
+CSS- Adding styles to pages
+PHP- used to neect to myswl databse
+MYSQL-used to handle database
+JavaScript/typescipt- Control behavoir of elements

@@ -15,5 +15,5 @@ run in browser
 http://localhost/CO-226-project-Database-for-a-Educational-Institute/index.html
 
 Ex:Login details
-Username=test 
+Username=amila 
 Password=1234

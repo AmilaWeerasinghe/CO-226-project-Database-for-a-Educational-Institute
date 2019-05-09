@@ -9,7 +9,7 @@
 <body>
 <div class="container">
   <div class="content">
-    <h1>ClassRoom details</h1>
+    <h1>Acedamic Staff details</h1>
    </div>
   </div>
   <div class="container">
@@ -26,14 +26,14 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "SELECT hallNumber, seats,air,night FROM class";
+$sql = "SELECT id,name,subject,language FROM acedamic";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table><tr><th>Hall ID</th><th>No of seats</th><th>A/C availabe</th><th>Night Facility vailabe</th></tr>";
+    echo "<table><tr><th>ID no</th><th>Name</th><th>Subject</th><th>Language can teach</th></tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row["hallNumber"]. "</td><td>" . $row["seats"]. "</td><td>" . $row["air"]. "</td><td>" . $row["night"]. "</td></tr>";
+        echo "<tr><td>" . $row["id"]. "</td><td>" . $row["name"]. "</td><td>" . $row["subject"]. "</td><td>" . $row["language"]. "</td></tr>";
     }
     echo "</table>";
 } else {
